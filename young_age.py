@@ -6,4 +6,4 @@ if age1 < age2 and age1 < age3:
 elif age2 < age1 and age2 < age3:
     print("Rahul is youngest")
 else:
-    print("Tamal in youngest")
+    print("Tamal is youngest")
