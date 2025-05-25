@@ -7,9 +7,9 @@ while True:
         queue.append(num)
     elif ch == 2:
         pop_item = queue.pop(0)
-        print("Popped Item :- ", pop_item)
+        print("Dequeued Item :- ", pop_item)
     elif ch == 3:
-        print("Stack :- ", *queue)
+        print("Queue :- ", *queue)
     elif ch == 4:
         print("Exited !")
         break
